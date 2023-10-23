@@ -51,7 +51,7 @@ def preprocess_and_train(min_date:str = '2009-01-01', max_date:str = '2015-01-01
         result = query_job.result()
         data = result.to_dataframe()
 
-        # Save it locally to accelerate the next queries!
+        # Save it locally to accelerate the next queries!!
         data.to_csv(data_query_cache_path, header=True, index=False)
 
     # Clean data using data.py
