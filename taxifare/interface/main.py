@@ -5,7 +5,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 from pathlib import Path
 from colorama import Fore, Style
-from dateutil.parser import parse
+from dateutil.parser import pars
 
 from taxifare.params import *
 from taxifare.ml_logic.data import get_data_with_cache, clean_data, load_data_to_bq
