@@ -204,7 +204,7 @@ def evaluate(
     )
     # $CHA_END
 
-    if data_processed.shape[0] == 0:
+    if data_processed.shape[0] == 0
         print("❌ No data to evaluate on")
         return None
 
