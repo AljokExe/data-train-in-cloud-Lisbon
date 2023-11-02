@@ -4,7 +4,7 @@ import pandas as pd
 from google.cloud import bigquery
 from pathlib import Path
 from colorama import Fore, Style
-from dateutil.parser import parse
+from dateutil.parser import pars
 
 from taxifare.params import *
 from taxifare.ml_logic.data import clean_data
