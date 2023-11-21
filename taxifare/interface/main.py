@@ -56,7 +56,7 @@ def preprocess(min_date:str = '2009-01-01', max_date:str = '2015-01-01') -> None
 
     # $CHA_END
     # Load a DataFrame onto BigQuery containing [pickup_datetime, X_processed, y]
-    # using data.load_data_to_bq()
+    # using data.load_data_to_bq(
     # $CHA_BEGIN
     data_processed_with_timestamp = pd.DataFrame(np.concatenate((
         data_clean[["pickup_datetime"]],
